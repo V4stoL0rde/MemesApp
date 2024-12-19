@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-container,
+.upload-container,
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.post {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post-info {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort-buttons {
+  margin: 20px 0;
+}
